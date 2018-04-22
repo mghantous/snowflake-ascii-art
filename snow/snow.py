@@ -50,12 +50,10 @@ class Snow(object):
                 if color_index >= len(colors):
                     color_index = 0
 
-
     def snow_the_line(self, line='', color='red'):
         # make full length
         line = line.replace('\n', '')
         line = line + (' '*(self.terminal_width - len(line))) + '\n'
-        # line = colored(line, color)
 
         if self.skip:
             self.skip = False
@@ -87,7 +85,6 @@ class Snow(object):
 
         self.skip = True
         return line
-
 
     def make_screen(self, drawing, color='red'):
         lines = ''
