@@ -12,6 +12,7 @@ $ python snow.py
 ```
 
 Here is an example:
+
 ![Example](https://raw.githubusercontent.com/mghantous/snowflake-ascii-art/master/snow.gif)
 
 # Background
